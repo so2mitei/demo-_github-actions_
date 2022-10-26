@@ -13,6 +13,6 @@ jobs:
       - uses: actions/add-to-project@v0.3.0
         with:
           project-url: https://github.com/users/so2mitei/projects/4
-          github-token: ${{ secrets.DEMOPAT_SECRET }}
+          github-token: ${{ secrets.DEMOPAT_SECRET_CLASSIC }}
           labeled: bug, needs-triage
           label-operator: NOT
